@@ -44,9 +44,9 @@ qcoutdir.mkdirs()
 //        SELECT WHICH WORKFLOW TO RUN - USES DIFFERENT INPUT, BUT ALL START FROM SAMPLE SHEET!
 //
 // ====================================================================================================
-include { run_fastqc } from 'modules/fastqc/main.nf'
-include { run_fastp } from 'modules/fastp/main.nf'
-include { run_multiqc } from 'modules/multiqc/main.nf'
+include { run_fastqc } from './modules/fastqc/main.nf'
+include { run_fastp } from './modules/fastp/main.nf'
+include { run_multiqc } from './modules/multiqc/main.nf'
 // =====================================================================================================
 
 
