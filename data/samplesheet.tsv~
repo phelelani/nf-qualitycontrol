@@ -1,0 +1,2 @@
+SampleID	Gender	FastqR1	FastqR2	Flowcell	Lane	BAM	gVCF
+Sample_1	.	$PWD/data/sample1_R1.fastq.gz	$PWD/data/sample1_R2.fastq.gz	.	.	.	.
